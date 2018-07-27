@@ -1,0 +1,11 @@
+﻿USE AdventureWorksLT;
+GO
+
+BEGIN TRANSACTION;
+
+SELECT
+	*
+FROM
+	SalesLT.Customer;
+
+ROLLBACK TRANSACTION;
